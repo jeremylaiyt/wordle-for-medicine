@@ -9,7 +9,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Clinical Owl Word Game" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
-        <b className="text-orange-600">Guess the 5-letter MEDICAL word</b>
+        <b className="text-orange-600">Guess the 5-letter MEDICINE</b>
         <br></br>
         <br></br>
           Developed by <a
@@ -17,7 +17,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
             rel="noreferrer"
             href="https://www.instagram.com/clinical_owl"
             className="underline font-bold"
-          ><b className="text-blue-600">Clinical Owl</b></a> based on the popular game {' '}
+          ><b className="text-blue-600">Clinical Owl</b></a> inspired by the popular game {' '}
         <a
           target="_blank"
           rel="noreferrer"
@@ -28,7 +28,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           rel="noreferrer"
           href="https://github.com/hannahcode/wordle"
           className="underline font-bold"
-        >here</a> on Github.
+        >here</a> on Github. Credits go to respective parties.
         <br></br><br></br>
         Follow us on <a
             target="_blank"

@@ -3,7 +3,7 @@ import { solutionIndex } from './words'
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
-    `Clinical Owl Word Game ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
+    `Owl Word ${lost ? 'X' : guesses.length}/6\n\n` +
       generateEmojiGrid(guesses) + `\n\n@clinical_owl`
   )
 }
@@ -17,11 +17,11 @@ export const generateEmojiGrid = (guesses: string[]) => {
         .map((letter, i) => {
           switch (status[i]) {
             case 'correct':
-              return '🟩'
+              return '🟢'
             case 'present':
-              return '🟨'
+              return '🟡'
             default:
-              return '⬜'
+              return '⚪️'
           }
         })
         .join('')
