@@ -3,8 +3,8 @@ import { solutionIndex } from './words'
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
-    `@clinical_owl Wordle ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
-      generateEmojiGrid(guesses)
+    `Clinical Owl Word Game ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
+      generateEmojiGrid(guesses) + `\n\n@clinical_owl`
   )
 }
 
