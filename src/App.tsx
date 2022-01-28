@@ -114,7 +114,7 @@ function App() {
   return (
     <div className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
       <div className="flex flex-wrap w-80 mx-auto items-center mb-8">
-        <h1 className="text-xl grow font-bold">Clinical Owl Word Game</h1>
+        <h1 className="text-xl grow font-bold">Owl Word - Guess the medicine</h1>
         <h3 className="text-base grow">Inspired by the game <i>Wordle</i></h3>
         <InformationCircleIcon
           className="h-6 w-6 cursor-pointer"
